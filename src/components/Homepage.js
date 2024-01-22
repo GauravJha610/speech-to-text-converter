@@ -33,10 +33,10 @@ function Homepage() {
                 <p className=' text-center text-white font-thin pt-1 '>*click on text space to copy.</p>
                 <div className="buttons flex pt-10 justify-center items-baseline space-x-10">
                     <button className=' bg-cyan-500 text-white px-4 py-2 rounded-full' onClick={setCopied}>
-                        {isCopied ? "Copied" : "Copy to Clipboard"}
+                        {isCopied ? "Copied" : "Copy"}
                     </button>
-                    <button className=' bg-cyan-500 text-white px-4 py-2 rounded-full' onClick={startListening}>Start Listening</button>
-                    <button className=' bg-cyan-500 text-white px-4 py-2 rounded-full' onClick={SpeechRecognition.stopListening}>Stop Listening</button>
+                    <button className=' bg-cyan-500 text-white px-4 py-2 rounded-full' onClick={startListening}>Start</button>
+                    <button className=' bg-cyan-500 text-white px-4 py-2 rounded-full' onClick={SpeechRecognition.stopListening}>Stop</button>
                 </div>
             </div>
 
